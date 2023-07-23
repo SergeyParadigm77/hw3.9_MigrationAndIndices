@@ -1,5 +1,6 @@
 --liquibase formatted sql
 
+
 --changeset gappasov:1
 CREATE INDEX students_name ON student (name);
 
